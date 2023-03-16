@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 300px;
+}
+.image {
+  height: 200px;
+}
+.button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  color: #a35200;
+  border: none;
+}
+.result {
+  display: flex;
+}
+.para {
+  margin-left: 10px;
+}
